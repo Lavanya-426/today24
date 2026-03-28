@@ -1,4 +1,15 @@
-.ok {
-  font-size: 900;
+body {
+  font-family: Arial;
+}
+
+h1 {
   color: blue;
+}
+
+li {
+  margin: 5px 0;
+}
+button {
+  margin-left: 10px;
+  cursor: pointer;
 }

@@ -1,13 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <div class="ok">hey</div>
+    <h1>Todo App</h1>
+
+    <input type="text" id="taskInput" placeholder="Enter task" />
+    <button onclick="addTask()">Add</button>
+
+    <ul id="taskList"></ul>
+
+    <script src="/script.js"></script>
   </body>
 </html>
